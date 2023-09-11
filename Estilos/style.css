@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+}
+
+body{
+    width: 100%;
+    background-color: #00030c;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin-bottom: -40px;
+}
+
+
+.pag1 img{
+    width: 348px;
+    height: 100px;
+    margin: auto;
+}
+
+.pag1{
+    background-image: url(/Imagens/Background.png);  
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: contain;
+}
+
+.info{
+
+    text-align: center;
+width: 35%;
+padding: 10% 0% 0% 5%;
+display: flex;
+gap: 30px;
+flex-direction: column;
+
+}
+
+.info > h1{
+color: #ffffff;
+font-family: 'Inter', sans-serif;
+font-size: 28px;
+font-weight: 700;
+}
+
+.info > p{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info > img{
+
+    width: 348px;
+height: 100px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-botao{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 4, 255);
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-botao2{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 3px solid grey;
+}
+
+.pag2{
+    background-image: url(/Imagens/Plataformas.png);
+    background-repeat: no-repeat;
+    padding: 20% 0% 20% 0%;
+    margin: 0% 0% 0% 6%;
+    background-size: contain;
+    display: flex;
+}
+
+
+.info2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 58%;
+    gap: 15px;
+}
+
+.info2 > h1{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 100%;
+
+}
+
+.info2 > p{
+    color: #F9F9F9;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+
+.pag3{
+    display: flex;
+    background-image: url(/Imagens/Telas.png);
+    background-repeat: no-repeat;
+    padding: 8% 0% 8% 0%;
+    margin: 0% 0% 0% 50%;
+    background-size: contain;
+
+}
+
+.info3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 85%;
+    margin: 0% 0% 0% -95%;
+    padding: 0% 0% 10% 0%;
+}
+
+.info3 > p{
+    color: #F9F9F9;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.container-botao3{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 4, 255);
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 30%;
+}
+
+.pag4{
+    background-image: url(/Imagens/Notebook.png);
+    background-repeat: no-repeat;
+    padding: 10% 0% 15% 0%;
+    margin: 0% 0% 0% 0%;
+    background-size: contain;
+    display: flex;
+}
+
+
+.info4{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 58%;
+    gap: 10%;
+    gap: 15px;
+}
+
+.info4 > h1{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 100%;
+
+}
+
+.info4 > p{
+    color: #F9F9F9;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.pag5{
+    height: 100vh;
+}
+
+.info5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.info5 > h1{
+color: #ffffff;
+font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+}
+
+.info5 > p{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.background-imagens{
+
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+}
+
+.legenda{
+color: #FFF;
+font-family: 'Inter',sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: auto;
+
+}
+
+
+footer{
+    background-color: #00030c;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+footer > img{
+    width: 102px;
+height: 35.28px;
+margin: auto;
+}
+
+.info-final{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+}
+
+.links > a{
+    color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+    text-decoration: none;
+}
+
+.direitos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.direitos > p{
+    color: #C0C0C0;
+text-align: center;
+font-family: 'Inter',sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+}
+
